@@ -1,0 +1,249 @@
+.espace-transitoire{
+    padding-top: 130px;
+}
+
+.espace-entre-titre-et-contenu{
+    padding-bottom: 25px;
+}
+
+#barreDeMenu{
+    background-color: #556d8d;
+    /*height: 200px;*/
+}
+
+.navbar-brand>img{
+    width: 180px;
+    height: 120px;
+    background-color: hsla(0, 17%, 87%, 0.467);
+    /*background-color: hsla(0, 23%, 90%, 0.467);*/
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul>li.nav-item{
+    width: 100px;
+}
+
+ul>li.nav-item>a{
+    font-size: 16px;
+    color: #fff;
+}
+
+.emailMembre{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#contenu_accueil{
+    text-align: justify;
+}
+
+.premiereLettreDuMot{
+    font-size: 100px;
+    background-color: #556d8d;
+    color: #fff;
+    border-bottom-right-radius: 25px;
+}
+
+.resteDuMot{
+    font-size: 50px;
+}
+
+.listeAvecPuceSpeciale>li{
+    list-style-type: '\23F5';
+}
+
+.listeAvecPuceSpeciale>li:hover, .miseEnValeur:hover{
+    font-size: 17px;
+    transition: 0.6s;
+    transform: scale(1.0);
+    margin: 4px;
+    padding: 6px;
+    background-color: #3c609042;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.articleSpecial{
+    font-weight: 500;
+}
+
+.articleSpecial>a:hover{
+    transition: 0.5s;
+    transform:scale(1.5);
+}
+
+.noteBien{
+    font-size: 25px;
+}
+
+.texteSurligne{
+    text-decoration: underline;
+}
+
+.miniTitreImportant{
+    font-size: 25px;
+}
+
+.infoMembreEquipe>div{
+    font-size: 14px;
+}
+
+mark{
+    border-top-left-radius: 10px;
+    background-color: rgba(48, 34, 96, 0.688);
+    color: #fff;
+    font-family: Century Gothic;
+}
+
+.lettre1itemMenu{
+    font-size: 25px;
+    color: #fff;
+    background-color: #3c6090;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3px;
+}
+
+ul>li.nav-item:hover{
+    transition: 0.5s;
+    transform:scale(1.2);
+}
+
+#txtMessage{
+    height: 150px;
+}
+
+@media screen and (max-width:900px) {
+    .navbar-brand>img{
+        width: 140px;
+        height: 80px;
+        background-color: hsla(0, 23%, 90%, 0.467);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    ul>li.nav-item{
+        width: 100px;
+    }
+    
+    ul>li.nav-item>a{
+        font-size: 12px;
+        color: #fff;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .espace-transitoire{
+        padding-top: 90px;
+    }
+    
+    .espace-entre-titre-et-contenu{
+        padding-bottom: 25px;
+    }
+    
+    #barreDeMenu{
+        background-color: #556d8d;
+        /*height: 200px;*/
+    }
+    
+    .navbar-brand>img{
+        width: 140px;
+        height: 80px;
+        background-color: hsla(0, 23%, 90%, 0.467);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    ul>li.nav-item{
+        width: 100px;
+    }
+    
+    ul>li.nav-item>a{
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    .emailMembre{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    #contenu_accueil{
+        text-align: justify;
+    }
+    
+    .premiereLettreDuMot{
+        font-size: 60px;
+        background-color: #556d8d;
+        color: #fff;
+        border-bottom-right-radius: 25px;
+    }
+    
+    .resteDuMot{
+        font-size: 35px;
+    }
+    
+    .listeAvecPuceSpeciale>li{
+        list-style-type: '\23F5';
+    }
+    
+    .articleSpecial{
+        font-weight: 500;
+    }
+    
+    .noteBien{
+        font-size: 25px;
+    }
+    
+    .texteSurligne{
+        text-decoration: underline;
+    }
+    
+    .miniTitreImportant{
+        font-size: 25px;
+    }
+    
+    .infoMembreEquipe>div{
+        font-size: 16px;
+    }
+    
+    mark{
+        border-top-left-radius: 10px;
+        background-color: rgba(48, 34, 96, 0.688);
+        color: #fff;
+        font-family: Century Gothic;
+    }
+    
+    .lettre1itemMenu{
+        font-size: 20px;
+        color: #fff;
+        background-color: #3c6090;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 3px;
+    }
+}
+
+@media (max-width:700px){
+    .table thead{
+        display: none;
+    }
+
+    .table tr{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .table td{
+        display: block;
+        text-align: right;
+    }
+
+    .table td:before{
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+    }
+}
