@@ -31,6 +31,7 @@
     width: 150px;
     position: relative;
     margin-right: auto;
+    border-radius: 25px;
     /*background-color: blueviolet;*/
 }
 
@@ -79,6 +80,7 @@
         width: 150px;
         position: relative;
         margin-right: auto;
+        border-radius: 25px;
         /*background-color: blueviolet;*/
     }
     
