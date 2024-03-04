@@ -31,9 +31,13 @@
     width: 150px;
     position: relative;
     margin-right: auto;
-    border-radius: 25px;
     /*background-color: blueviolet;*/
 }
+
+.menu-computer img{
+    border-radius: 25px;
+}
+
 
 /*CONFIGURATION PHONE*/
 @media screen and (max-width: 680px) {
@@ -80,8 +84,11 @@
         width: 150px;
         position: relative;
         margin-right: auto;
-        border-radius: 25px;
         /*background-color: blueviolet;*/
+    }
+
+    .menu-phone img{
+        border-radius: 25px;
     }
     
     .menu-phone nav{
