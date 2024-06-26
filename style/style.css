@@ -12,8 +12,8 @@
 }
 
 .navbar-brand>img{
-    width: 180px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 
 ul>li.nav-item{
@@ -112,7 +112,7 @@ ul>li.nav-item:hover{
 
 @media screen and (max-width:900px) {
     .navbar-brand>img{
-        width: 140px;
+        width: 80px;
         height: 80px;
     }
     
@@ -142,7 +142,7 @@ ul>li.nav-item:hover{
     }
     
     .navbar-brand>img{
-        width: 140px;
+        width: 80px;
         height: 80px;
     }
     
