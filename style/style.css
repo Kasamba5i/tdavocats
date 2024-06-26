@@ -14,7 +14,6 @@
 .navbar-brand>img{
     width: 180px;
     height: 120px;
-    padding: 10px;
 }
 
 ul>li.nav-item{
@@ -115,7 +114,6 @@ ul>li.nav-item:hover{
     .navbar-brand>img{
         width: 140px;
         height: 80px;
-        padding: 5px;
     }
     
     ul>li.nav-item{
@@ -146,7 +144,6 @@ ul>li.nav-item:hover{
     .navbar-brand>img{
         width: 140px;
         height: 80px;
-        padding: 5px;
     }
     
     ul>li.nav-item{
