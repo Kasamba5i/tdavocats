@@ -14,9 +14,6 @@
 .navbar-brand>img{
     width: 180px;
     height: 120px;
-    background-color: hsla(0, 17%, 87%, 0.467);
-    /*background-color: hsla(0, 23%, 90%, 0.467);*/
-    border-radius: 10px;
     padding: 10px;
 }
 
@@ -118,8 +115,6 @@ ul>li.nav-item:hover{
     .navbar-brand>img{
         width: 140px;
         height: 80px;
-        background-color: hsla(0, 23%, 90%, 0.467);
-        border-radius: 10px;
         padding: 5px;
     }
     
@@ -151,8 +146,6 @@ ul>li.nav-item:hover{
     .navbar-brand>img{
         width: 140px;
         height: 80px;
-        background-color: hsla(0, 23%, 90%, 0.467);
-        border-radius: 10px;
         padding: 5px;
     }
     
