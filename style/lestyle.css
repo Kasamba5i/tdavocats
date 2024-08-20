@@ -1,0 +1,18 @@
+/*
+*{
+    font-family: "Audiowide", "Sofia", sans-serif;
+    //fonts à utiliser pour les notes (notifications), avertissements
+}
+*/
+
+
+a {
+    color: inherit;
+    background: none;
+    text-decoration: none;
+}
+
+
+.articleSpecial{
+    text-decoration-line: underline;
+}
